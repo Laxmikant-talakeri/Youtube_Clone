@@ -24,6 +24,7 @@ nav{
     background: #fff;
     top: 0;
     z-index: 10;
+    position: sticky;
 
 }
 .nav-right img{
@@ -62,4 +63,28 @@ nav{
 }
 .search-box img{
     width: 15px;
+}
+.sidebar{
+      background-color:;
+      width: 15%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      padding-left: 2%;
+      padding-top: 80px;
+       
+}
+.shortcut-links{
+    width: 20px;
+    margin-right: 20px;
+
+
+}
+.shortcut-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    color: black;
 }
